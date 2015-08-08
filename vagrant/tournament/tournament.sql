@@ -5,9 +5,12 @@
 --
 -- You can write comments in this file by starting them with two dashes, like
 -- these lines here.
-
-
--- prep: CREATE DATABASE tournament;
+--
+-- prep: 
+--     navigate to /vagrant/tournament, then issue psql.
+--     Issue these within psql (under vagrant database):
+--           CREATE DATABASE tournament;
+--           \i tournament.sql
 
 -- Players Table
 CREATE TABLE Players (
