@@ -66,3 +66,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#############################################
+## Udacity Full Stack Foundations - Restaurant
+##############################################
+
+try_sql_alchemy/*.db
