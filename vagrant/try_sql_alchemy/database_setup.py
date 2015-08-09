@@ -8,7 +8,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 
-base = declarative_base()
+Base = declarative_base()
 
 ################
 ## Class
@@ -34,4 +34,4 @@ class MenuItem(Base):
 ## Config End
 ################
 engine = create_engine("sqlite:///restaurantmenu.db")
-Base.metadata.create_all_engine
+Base.metadata.create_all(engine)
