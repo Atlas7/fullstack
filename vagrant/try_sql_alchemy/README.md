@@ -8,7 +8,7 @@ Run following to create a SQLite database `restaurantmenu.db`.
 python database_setup.py
 ```
 
-Run following to test create our first `Restaurant` and `MenuItem` Objects.
+Run following to test create our first `Restaurant` and `MenuItem` Objects. (test out CRUD CREATE).
 
 ```
 python test_crud_create.py
@@ -20,10 +20,22 @@ Run following to add lots more `Restaurant` and `MenuItem` Objects (supplied by 
 python lots_of_menus.py
 ```
 
-Run following to print out all the `MenuItem` names added so far.
+Run following to print out all the `MenuItem` names added so far (test out CRUD READ).
 
 ```
 python print_all_menus.py
+```
+
+Run following to test out CRUD UPDATE
+
+```
+python test_crud_update.py
+```
+
+Run following to test out CRUD DELETE
+
+```
+python test_crud_delete.py
 ```
 
 # More Info: Database Setup
