@@ -1,6 +1,32 @@
 This is part of the Udacity - Full Stack Foundations exercise. On trying out SQLAlchemy.
 
-# Database Setup
+# Usage
+
+Run following to create a SQLite database `restaurantmenu.db`.
+
+```
+python database_setup.py
+```
+
+Run following to test create our first `Restaurant` and `MenuItem` Objects.
+
+```
+python test_crud_create.py
+```
+
+Run following to add lots more `Restaurant` and `MenuItem` Objects (supplied by Udacity).
+
+```
+python lots_of_menus.py
+```
+
+Run following to print out all the `MenuItem` names added so far.
+
+```
+python print_all_menus.py
+```
+
+# More Info: Database Setup
 
 This section summarizes the general structure of `database_setup.py`.
 
